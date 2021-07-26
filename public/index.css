@@ -1,0 +1,58 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    align-items: stretch;
+    background: #fff;
+    flex-flow: row wrap;
+}
+
+.half {
+    flex-grow: 1;
+    min-width: 400px;
+    margin: 8px;
+
+    background: #e8e8e8;
+    border-radius: 8px;
+}
+
+#border {
+    width: 5px;
+    
+    background: white;
+}
+
+#vs-wrapper {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+    z-index: 1;
+}
+
+#vs {
+    width: 80px;
+    height: 80px;
+    background: white;
+    display: grid;
+    place-items: center;
+    border-radius: 40px;
+}
+
+#vs > p {
+    font-size: 24px;
+    font-weight: 700;
+}

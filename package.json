@@ -1,0 +1,24 @@
+{
+  "name": "yesno",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.10",
+    "express": "^4.17.1",
+    "got": "^11.8.2",
+    "node-fetch": "^2.6.1",
+    "npm-api": "^1.0.1"
+  },
+  "devDependencies": {
+    "weekly-downloads": "^1.0.4"
+  }
+}
